@@ -1,7 +1,10 @@
 import streamlit as st
 
-st.title("Merhaba Dünya!")
-st.write("Eğer bu yazıyı telefonda görüyorsanız bağlantı başarılı demektir.")
+st.title("📱 Telefon Testi")
+st.write("Merhaba Dünya! 🎉")
+st.write("Bu uygulama Streamlit Cloud üzerinden çalışıyor.")
 
-if st.button("Tıkla"):
-    st.balloons() # Ekranın altında balonlar uçar, test için eğlencelidir.
+# Ekstra basit bir buton (test için)
+if st.button("Tıkla beni"):
+    st.success("Bağlantı başarılı! iPhone 6'da çalışıyor 😊")
+
